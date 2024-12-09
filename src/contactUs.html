@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <title>Title</title>
+    <title>Contact-us </title>
 </head>
 <body>
 <!-- Navbar -->
@@ -15,63 +15,49 @@
     </ul>
 </nav>
 
-<div>
-    <div>
-        <div>
-            <h1>Contact Us</h1>
+<main class="contact-content">
+    <img alt="" class="background" height="100%" src="../../Nursery/assets/Backgrounds/HomeBackground.svg" width=""/>
+
+    <div class="info-section">
+        <div class="info-heading">
+            <h1>FOR ANY OTHER ENQUIRIES</h1>
         </div>
 
-        <div>
-            <p>
-                Did we missed something? <br/>
-                Please let us know via the form below
-            </p>
+        <div class="informations-card">
+            <h3>INFORMATIONS</h3>
+            <div class="information">
+                <h4>EDGEFLIX</h4>
+                <p>6340 Salleri Road</p>
+                <p>44200 Bharatpur, Nepal</p>
+                <h4>+977 9812210296</h4>
+                <br>
+                <h4>CONTACT@EDGEPLIX.COM</h4>
+            </div>
         </div>
     </div>
 
-    <div>
-        <form action="#">
-            <table>
-                <tr>
-                    <td>
-                        <input
-                                placeholder="Full Name *"
-                                required
-                                type="text"
-                        />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input
-                                placeholder="Subject *"
-                                required
-                                type="text"
-                        />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input
-                                placeholder="Email *"
-                                required
-                                type="text"
-                        />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                                <textarea
-                                        cols="30"
-                                        placeholder="Message"
-                                        rows="10"
-                                ></textarea>
-                    </td>
-                </tr>
-            </table>
-            <button>Submit</button>
-        </form>
+    <div class="form-card">
+        <h2 class="input-label">GET IN TOUCH</h2>
+
+        <div class="form-input">
+            <input id="subject" name="subject" placeholder="SUBJECT *" type="text"/>
+            <input id="first-name" name="first-name" placeholder="FIRSTNAME *" type="text"/>
+            <input id="last-name" name="last-name" placeholder="LASTNAME *" type="text"/>
+            <input id="phone" name="phone" placeholder="PHONE " type="text"/>
+            <input id="address" name="address" placeholder="ADDRESS" type="text"/>
+            <input id="email" name="email" placeholder="EMAIL *" type="text"/>
+            <textarea cols="30" id="" name="your-message" rows="10">YOUR MESSAGE*</textarea>
+            <button id="btn-form-send">SEND</button>
+        </div>
     </div>
-</div>
+</main>
+
+<footer>
+    <div class="copyright">
+        <p>© 2024 EDGEFLIX</p>
+        <p>ALL RIGHT RESERVED</p>
+    </div>
+</footer>
+
 </body>
 </html>
