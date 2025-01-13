@@ -1,0 +1,30 @@
+.contact-content {
+
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info-heading{
+    align-self: center;
+}
+
+.informations-card{
+    
+    margin: 90px 0 0 0;
+    border: 1px solid var(--secondary-color);
+    width: 400px;
+    
+}
+
+.information-heading{
+    padding: 10px;
+}
+
+.information{
+    border-top: 1px solid var(--secondary-color);
+    
+    padding: 10px;
+}

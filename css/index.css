@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #f6f1eb; /* Blue */
+    --secondary-color: #403a34; /* Gray */
+    --accent-color-green: #578E7E;
+    --accent-color-beige: #c9c1b6;
+}
+
+/* STATIC THINGS */
+
+.heading {
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+
+    font-weight: bold;
+    margin: 0 0 20px 0;
+
+    /*text-align: center;*/
+
+    text-transform: uppercase;
+}
+
+
+.cartoon-img, .anime-img, .show-img {
+    height: 300px;
+    width: 100%;
+    object-fit: fill;
+
+}
+
+.cartoon-link, .anime-link, .show-link {
+
+    margin: 10px 0 0 0;
+}
+
+.title{
+    font-size: 1.4rem;
+}
+
+.genre {
+    color: var(--accent-color-green);
+
+    font-weight: bold;
+    font-size: 0.9rem;
+
+    margin: 10px 0;
+}
+
+
+/* MAIN CONTENT */
+@media screen and (min-width: 992px) {
+
+    .genre-stack {
+
+        width: 100%;
+
+
+        display: flex;
+        flex-direction: column;
+
+        margin: 50px 10px;
+    }
+
+
+    .stack-items {
+        display: flex;
+        gap: 50px;
+    }
+
+
+    .stack-item {
+        width: 250px;
+        text-align: center;
+
+        background-color: var(--accent-color-beige);
+
+        border: 1px solid var(--secondary-color);
+
+
+    }
+    
+    
+    
+    
+
+
+}
+
+
